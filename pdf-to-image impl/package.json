@@ -1,0 +1,20 @@
+{
+  "name": "pdf-to-image-impl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^7.0.0",
+    "node-fetch": "^2.6.1",
+    "pdf-page-counter": "^1.0.3",
+    "pdf-poppler": "^0.2.1",
+    "requirejs": "^2.3.6",
+    "tesseract.js": "^2.1.5"
+  }
+}
