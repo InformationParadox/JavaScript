@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    background:  #edf0f3;
+    font-family: poppins;
+    font-size: 0.9rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 21rem;
+}
+
+h1,
+h2,
+h3,
+h4{
+    letter-spacing: 3px;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    font-family: roboto;
+}
+
+h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 0.875rem;
+  }
+
+  p {
+    margin-bottom: 1.25rem;
+    color: #497197;
+  }
+
+  @media screen and (min-width:800px) {
+
+    h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 2.5rem;
+      }
+      h3 {
+        font-size: 1.75rem;
+      }
+      h4 {
+        font-size: 1rem;
+      }
+      body{
+        font-size: 1rem;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        line-height: 1;
+      }
+  }
+
+  .section-center {
+    width: 90vw;
+    margin: 5rem auto;
+    max-width: 1170px;
+    text-transform: capitalize;
+  }
+
+  .gift-img{
+    margin-bottom: 35px;
+  }
+
+  .gift-info h3{
+    color:#1a6aa2;
+    text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 992px) {
+    .section-center {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      place-items: center;
+      gap: 3rem;
+      width: 95vw;
+    }
+    .gift-img {
+      margin-bottom:0;
+    }
+  }
+
+  .gift-info p{
+    margin:38px 0;
+  }
+
+  .deadline{
+    display: flex;
+    font-size: 16px;
+  }
+  .deadline h4{
+    font-size: 28px;
+  }
+
+  .deadline-format{
+    background: hsl(209, 61%, 16%);
+    color: whitesmoke;
+    width: 5rem;
+    height: 5rem;
+    text-transform:uppercase;
+    margin-right: 1.3rem;
+    border:1px solid hsl(209, 61%, 16%);
+    display: grid;
+    text-align: center;
+    place-items:center;
+  }
+
+  .deadline-format span{
+    display: block;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+  }
+
+  .deadline h4:not(.expired) {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+    letter-spacing: 2px;
+  }
